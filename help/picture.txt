@@ -1,0 +1,3 @@
+To take a picture from the camera and send the file to your email back type *picture* as the subject of the email sent to this email address.
+
+It is advised to not immediately send this command after the screenshot command, wait and first recieve the respose from your first command.

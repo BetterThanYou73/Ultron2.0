@@ -1,0 +1,8 @@
+{
+"Open file" : "help/open_files.txt",                    
+"Screenshot" : "help/screenshot.txt",
+"Fetch log" : "help/fetch_log.txt",
+"Quit" : "help/quit.txt",
+"Shutdown" : "help/shutdown.txt",
+"Picture" : "help/picture.txt"
+}

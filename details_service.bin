@@ -1,0 +1,6 @@
+{
+"USERNAME" : "email",
+"PASSWORD" :  "password",
+"from_addr" : "from address",
+"to_addr" : ["list of emails","email1","email2"]
+}

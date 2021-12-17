@@ -1,0 +1,5 @@
+To open files on your computer type *Open_<file_name>* as the subject of the email sent to this email address.
+
+Note: You must have saved absolute address of the programs in the *program_list.txt* file saved in the root of Ultron2.0 folder.
+
+If you cannot recall the files whose paths you have added type*Open list*

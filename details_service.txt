@@ -1,0 +1,6 @@
+{
+"USERNAME" : "",
+"PASSWORD" :  "",
+"from_addr" : "",
+"to_addr" : [""]
+}

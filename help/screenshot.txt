@@ -1,0 +1,3 @@
+To take a screenshot and send the file to your email back type *screenshot* as the subject of the email sent to this email address.
+
+It is advised to not immediately send this command after the picture command. Wait and first recieve the respose from your first command.

@@ -1,0 +1,1 @@
+To recieve log of all the commands type *fetch_log_<Month Day(numeric)>* as the subject of the email sent to this email address.

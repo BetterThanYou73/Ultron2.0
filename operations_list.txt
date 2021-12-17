@@ -1,0 +1,8 @@
+{
+"shutdown" : "operations/shutdown.py",                    
+"help" : "operations/help.py",
+"fetch_log" : "operations/fetch_log.py",
+"file_open" : "operations/file_open.py",
+"screenshot" : "operations/screenshot.py",
+"picture" : "operations/take_a_picture.py"
+}

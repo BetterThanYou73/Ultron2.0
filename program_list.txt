@@ -1,0 +1,5 @@
+{
+"notepad" : "C:\\WINDOWS\\system32\\notepad.exe",                    
+"file_name2" : "File_address(absolute)",
+"file_name3" : "File_address(absolute)"
+}

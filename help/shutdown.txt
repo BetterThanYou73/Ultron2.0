@@ -1,0 +1,1 @@
+To shutdown the computer type *shutdown* as the subject of the email sent to this email address.
