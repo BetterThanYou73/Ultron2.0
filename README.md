@@ -14,12 +14,12 @@ Time-saving as you can rely on the program for few basic operations.
 Registering email to the program is fairly easy.
 
 Offers following functionality :
--Opening files and applications.
--Maintaining a record of commands executed.
--Taking a screenshot and sending it to the user.
--Shutting down the computer.
--Sending syntax of the commands for convenience of the user.
--Sending the log files of a specific date specified by the user.
--Closing the operations of the program.
+**- Opening files and applications.**
+**- Maintaining a record of commands executed.**
+**- Taking a screenshot and sending it to the user.**
+**- Shutting down the computer.**
+**- Sending syntax of the commands for convenience of the user.**
+**- Sending the log files of a specific date specified by the user.**
+**- Closing the operations of the program.**
 
 Nonstop runs in the background for real-time actions.
