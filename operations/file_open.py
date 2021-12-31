@@ -23,8 +23,7 @@ programs = ''
 
 with open('program_list.txt', 'r') as file :
     programs_list = json.loads(file.read())
-    print(subject[5:])
-    print(programs_list)
+
 
 if program_open == "list":
 
