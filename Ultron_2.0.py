@@ -62,7 +62,7 @@ server_url = 'imap.gmail.com'
 
 
 #connecting to the server
-server_connected = imaplib.IMAP4_SSL(server_url)#USE SSL for secure connection
+server_connected = imaplib.IMAP4_SSL(server_url) #USE SSL for secure connection
 server_connected.login(username,password) #Logging in
 
 k = True
@@ -106,8 +106,7 @@ while k:
         #Now we can access the parts of emails such as From, to, date, subject etc, but we only need subject and date
             msg_subject = msg["subject"]
             msg_date =  msg['date']
-            #print(msg_date)
-            #print(msg_subject)
+            
         
         #Filtering the value so it does not repeat
             if msg_subject not in msg_list:
@@ -133,6 +132,19 @@ while k:
                 os.system(open_file)
                 break
             
+            
+            elif "open_" in msg_subject:
+                with open(address, 'a') as file:
+                    file.write(f"\nOperation : {msg_operation[0]}, Date : {msg_operation[1]}")
+                with open('operations/subject.txt','w') as file:
+                    file.write(msg_operation[0])
+                with open('operations/date.txt','w') as file:
+                    file.write(message_date)
+                open_file ='python ' + operations_list['file_open']
+                os.system(open_file)
+                break
+            
+            
             elif msg_operation[0] in operations_list:
                 with open(address, 'a') as file:
                     file.write(f"\nOperation : {msg_operation[0]}, Date : {msg_operation[1]}")
@@ -143,11 +155,13 @@ while k:
                 open_file ='python ' + operations_list[msg_operation[0]]
                 os.system(open_file)
                 break
+            
                 
             elif msg_operation[0] == 'quit':
                 os.system('python message/message_quit_email.py')
                 k = False
                 break
+            
             
             elif msg_operation[0] not in operations_list:
                 os.system('python message/message_negative.py')
